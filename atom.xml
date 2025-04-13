@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Aghenim Sanctuary</title>
+  <icon>https://www.gravatar.com/avatar/ea45b4a3e6e11afc565d51f03f991c03</icon>
+  <subtitle>Frontend &amp; DevOps Engineer</subtitle>
+  <link href="http://xsun.work/atom.xml" rel="self"/>
+  
+  <link href="http://xsun.work/"/>
+  <updated>2025-04-13T11:26:53.851Z</updated>
+  <id>http://xsun.work/</id>
+  
+  <author>
+    <name>Aghenim</name>
+    <email>me@xsun.work</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Teamcenter Active Workspace 创建新的 Command</title>
+    <link href="http://xsun.work/posts/91c57bbe/"/>
+    <id>http://xsun.work/posts/91c57bbe/</id>
+    <published>2025-01-06T16:36:12.000Z</published>
+    <updated>2025-04-13T11:26:53.851Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Teamcenter-Active-Workspace-创建新的-Command"><a href="#Teamcenter-Active-Workspace-创建新的-Command" class="headerlink" title="Teamcenter Active Workspace 创建新的 Command"></a>Teamcenter Active Workspace 创建新的 Command</h1><ol><li>打开 Teamcenter Active Workspace工程更目录</li><li>运行<code>initenv.bat</code>或<code>initenv.sh</code></li><li>运行<code>npm run generateModule</code><br>&#x2F;&#x2F; TODO</li></ol><p>&#x2F;&#x2F; 草稿<br>tc：<br>桌面2层&#x2F;4层图标</p><p>awc：</p><ol><li>启动&#x2F;服务下的pool和tomcat</li><li>chrome标签，tc home</li></ol><p>源码位置：aws2&#x2F;stage&#x2F;src<br>在这里创建模块，比如：aws2&#x2F;stage&#x2F;src&#x2F;module1</p><p>创建模块：</p><ol><li><p>进入stage目录</p></li><li><p>initenv</p></li><li><p>npm run generateModule</p></li><li><p>根据终端提示操作</p></li><li><p>再次运行npm run generateModule</p></li><li><p>选择创建类型：command，放入刚刚创建的module</p></li><li><p>选择command名称和图标</p></li><li><p>选择命令入口位置，如aw_rightWall，详见文档</p></li><li><p>手动创建kit.json，参考已有的模块</p></li></ol><p>模块命名：awc_custom_[name]</p><p>*devServer不生效时（特别是新增东西时），先执行npm run clean，再重启devServer</p><p>&#x2F;&#x2F; 素材图片<br><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20250107003612436.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20250107004144260.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20250107004311816.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20250107004352676.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Teamcenter-Active-Workspace-创建新的-Command&quot;&gt;&lt;a href=&quot;#Teamcenter-Active-Workspace-创建新的-Command&quot; class=&quot;headerlink&quot; title=&quot;Teamcenter A</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://xsun.work/posts/0/"/>
+    <id>http://xsun.work/posts/0/</id>
+    <published>2024-12-24T16:49:01.920Z</published>
+    <updated>2025-04-13T11:26:53.849Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://chatgpt.com/share/676ad3ef-a500-8006-9d16-96b5b2d216da">https://chatgpt.com/share/676ad3ef-a500-8006-9d16-96b5b2d216da</a></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241225035057522.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241225035151836.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://chatgpt.com/share/676ad3ef-a500-8006-9d16-96b5b2d216da&quot;&gt;https://chatgpt.com/share/676ad3ef-a500-8006-9d16-96b5b2d216da&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>picgo</title>
+    <link href="http://xsun.work/posts/c4fe5b8b/"/>
+    <id>http://xsun.work/posts/c4fe5b8b/</id>
+    <published>2024-12-13T15:03:51.000Z</published>
+    <updated>2024-12-13T12:06:25.874Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="picGo使用指南"><a href="#picGo使用指南" class="headerlink" title="picGo使用指南"></a>picGo使用指南</h1><p>之前用的vscode的插件markdown-image，但它最近各种bug。<br>并且vscode的插件局限性太大，所以换成了picGo。</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><a href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a></p><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p><a href="https://picgo.github.io/PicGo-Doc/zh/guide/config.html">https://picgo.github.io/PicGo-Doc/zh/guide/config.html</a></p><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><h3 id="水印插件"><a href="#水印插件" class="headerlink" title="水印插件"></a>水印插件</h3><ol><li><p>安装</p><p> <a href="https://github.com/terwer/picgo-plugin-watermark-elec">https://github.com/terwer/picgo-plugin-watermark-elec</a></p></li><li><p>配置</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;picGo使用指南&quot;&gt;&lt;a href=&quot;#picGo使用指南&quot; class=&quot;headerlink&quot; title=&quot;picGo使用指南&quot;&gt;&lt;/a&gt;picGo使用指南&lt;/h1&gt;&lt;p&gt;之前用的vscode的插件markdown-image，但它最近各种bug。&lt;br&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://xsun.work/posts/0/"/>
+    <id>http://xsun.work/posts/0/</id>
+    <published>2024-12-13T11:33:44.557Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="设置-Personal-Access-Token"><a href="#设置-Personal-Access-Token" class="headerlink" title="设置 Personal Access Token"></a>设置 Personal Access Token</h1><p>参考[<a href="github-token.md">github-token</a>]</p><h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><h2 id="npmrc"><a href="#npmrc" class="headerlink" title=".npmrc"></a>.npmrc</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//npm.pkg.github.com/:_authToken=YOUR_TOKEN</span><br><span class="line">registry=https://npm.pkg.github.com</span><br></pre></td></tr></table></figure><h2 id="package-json"><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h2><ul><li><strong>name字段</strong>：必须包含包的作用域和名称。例如，如果包名为<code>test</code>，并且要将其发布到<code>My-org</code>组织或用户，则 package.json 中的 name 字段应为<code>@my-org/test</code>。</li><li><strong>repository字段</strong>：必须与GitHub Repository URL匹配。例如存储库URL是<a href="">github.com&#x2F;my-org&#x2F;test</a>，则存储库字段应为<a href="">https://github.com/my-org/test.git</a>。</li></ul><blockquote><p>注意：</p><ul><li>包名称和作用域只能使用小写字母。</li><li>npm 版本的 tarball 必须小于 256MB。</li></ul></blockquote><h1 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm publish</span><br></pre></td></tr></table></figure><h2 id="配置-npmrc"><a href="#配置-npmrc" class="headerlink" title="配置.npmrc"></a>配置.npmrc</h2><h2 id="adduser"><a href="#adduser" class="headerlink" title="adduser"></a>adduser</h2><p>npm adduser</p><h2 id="配置repository路径"><a href="#配置repository路径" class="headerlink" title="配置repository路径"></a>配置repository路径</h2><p>为确保仓库的 URL 正确，请将 REPOSITORY 替换为要发布的包所在仓库的名称，将 OWNER 替换为拥有该仓库的 GitHub 个人帐户或组织的名称。</p><p>GitHub Packages 将根据该 URL 匹配仓库。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">&quot;repository&quot;</span>:<span class="string">&quot;https://github.com/OWNER/REPOSITORY&quot;</span>,</span><br></pre></td></tr></table></figure><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;设置-Personal-Access-Token&quot;&gt;&lt;a href=&quot;#设置-Personal-Access-Token&quot; class=&quot;headerlink&quot; title=&quot;设置 Personal Access Token&quot;&gt;&lt;/a&gt;设置 Personal Ac</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://xsun.work/posts/0/"/>
+    <id>http://xsun.work/posts/0/</id>
+    <published>2024-12-13T11:33:44.557Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x2F;&#x2F; TODO</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;#x2F;&amp;#x2F; TODO&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何更新Teamcenter BIMDE</title>
+    <link href="http://xsun.work/posts/za502868/"/>
+    <id>http://xsun.work/posts/za502868/</id>
+    <published>2024-12-11T14:31:15.000Z</published>
+    <updated>2024-12-17T12:38:26.906Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="如何更新Teamcenter-BIMDE"><a href="#如何更新Teamcenter-BIMDE" class="headerlink" title="如何更新Teamcenter BIMDE"></a>如何更新Teamcenter BIMDE</h1><h2 id="更新数据模型"><a href="#更新数据模型" class="headerlink" title="更新数据模型"></a>更新数据模型</h2><h3 id="1-打开Teamcenter-Environment-Manager"><a href="#1-打开Teamcenter-Environment-Manager" class="headerlink" title="1. 打开Teamcenter Environment Manager"></a>1. 打开Teamcenter Environment Manager</h3><h3 id="2-选择「配置管理器」"><a href="#2-选择「配置管理器」" class="headerlink" title="2.选择「配置管理器」"></a>2.选择「配置管理器」</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211223305457.png"></p><h3 id="3-选择「维护现有配置」"><a href="#3-选择「维护现有配置」" class="headerlink" title="3. 选择「维护现有配置」"></a>3. 选择「维护现有配置」</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211223546533.png"></p><h3 id="4-选择您的现有配置"><a href="#4-选择您的现有配置" class="headerlink" title="4. 选择您的现有配置"></a>4. 选择您的现有配置</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211223644485.png"></p><h3 id="5-选择「更新数据库（完整模型）」"><a href="#5-选择「更新数据库（完整模型）」" class="headerlink" title="5. 选择「更新数据库（完整模型）」"></a>5. 选择「更新数据库（完整模型）」</h3><blockquote><p><strong>⚠️更新前请关闭所有TC服务，包括两层客户端、四层客户端、AWC服务端等等</strong></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211224020146.png"></p><h3 id="6-输入用户名密码"><a href="#6-输入用户名密码" class="headerlink" title="6. 输入用户名密码"></a>6. 输入用户名密码</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211223953075.png"></p><h3 id="7-选择更新模板"><a href="#7-选择更新模板" class="headerlink" title="7. 选择更新模板"></a>7. 选择更新模板</h3><ol><li>选择 <strong>「浏览」</strong> 文件<br> <img src="https://cdn.jsdelivr.net/gh/xionsun/file@main/hexo/20241211224127839.png"></li><li>文件类型选择 <strong>「所有文件」</strong></li><li>进入需要更新的数据模型所在路径，选择<code>media_teamcenter_xxx.xml</code>文件<br> <img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211224253643.png"></li></ol><h3 id="8-确认"><a href="#8-确认" class="headerlink" title="8. 确认"></a>8. 确认</h3><blockquote><p><strong>⚠️务必在此确认您的上述步骤操作正确，并已停止所有TC服务</strong></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211224734995.png"></p><h3 id="9-（可选）虚拟机备份"><a href="#9-（可选）虚拟机备份" class="headerlink" title="9. （可选）虚拟机备份"></a>9. （可选）虚拟机备份</h3><p>通常在我遇到的Siemens Teamcenter项目中，开发环境都是实施团队通过VMWare虚拟机提供的。</p><p>所以当更新开始前，我通常会打一个虚拟机快照。</p><p>遇到更新错误时，恢复快照，联系数据模型提供人即可。</p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211225245199.png"></p><p>主要是根据过去的情况，更新错误有时会导致数据模型异常（或你可以理解成损坏），就算你中断更新，Teamcenter运行时仍然会遇到很多问题，就很烦。</p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211224850023.png"></p><h3 id="10-更新完成"><a href="#10-更新完成" class="headerlink" title="10. 更新完成"></a>10. 更新完成</h3><p>如果你看到这个「✅安装成功」，那么恭喜你，数据模型更新顺利完成</p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211225453613.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211232250707.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211232503776.png"></p><h2 id="更新SOA执行文件"><a href="#更新SOA执行文件" class="headerlink" title="更新SOA执行文件"></a>更新SOA执行文件</h2><ol><li>找到tc的root目录下的<code>\bin</code>目录，替换<code>libv2soaxxx.dll</code>文件<br><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241211235828472.png"></li></ol><h2 id="可选-更新Soa-Api文档"><a href="#可选-更新Soa-Api文档" class="headerlink" title="(可选)更新Soa Api文档"></a>(可选)更新Soa Api文档</h2><ol><li>找到awc工程目录（通常为<code>aws2/stage</code>），执行<code>convertTemplate.cmd</code></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;如何更新Teamcenter-BIMDE&quot;&gt;&lt;a href=&quot;#如何更新Teamcenter-BIMDE&quot; class=&quot;headerlink&quot; title=&quot;如何更新Teamcenter BIMDE&quot;&gt;&lt;/a&gt;如何更新Teamcenter BIMDE&lt;/h1&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在BetterTouchTool自定义一个歌词显示控件</title>
+    <link href="http://xsun.work/posts/6297e95e/"/>
+    <id>http://xsun.work/posts/6297e95e/</id>
+    <published>2024-12-05T17:53:38.000Z</published>
+    <updated>2024-12-13T11:33:44.558Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Touchbar-Lyric"><a href="#Touchbar-Lyric" class="headerlink" title="Touchbar Lyric"></a>Touchbar Lyric</h2><blockquote><p>参考官方文档：<a href="https://github.com/ChenghaoMou/touchbar-lyric">https://github.com/ChenghaoMou/touchbar-lyric</a></p></blockquote><h3 id="安装-python"><a href="#安装-python" class="headerlink" title="安装 python"></a>安装 python</h3><p>安装过程不展开介绍了，可以使用brew、python.org官网、pyenv、conda等工具安装。</p><p>⚠️需要注意的问题：</p><ul><li>3.9.x、3.10.x版本会在控件中输出报错信息：</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the <span class="string">&#x27;ssl&#x27;</span> module is compiled with <span class="string">&#x27;LibreSSL 2.8.3&#x27;</span></span><br></pre></td></tr></table></figure><ul><li>解决方案：最终使用的是3.12.0</li></ul><h3 id="安装-touchbar-lyric"><a href="#安装-touchbar-lyric" class="headerlink" title="安装 touchbar_lyric"></a>安装 touchbar_lyric</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install touchbar_lyric --upgrade</span><br></pre></td></tr></table></figure><h3 id="测试-touchbar-lyric"><a href="#测试-touchbar-lyric" class="headerlink" title="测试 touchbar_lyric"></a>测试 touchbar_lyric</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 -m touchbar_lyric --app Music</span><br></pre></td></tr></table></figure><h2 id="在BetterTouchTool中配置"><a href="#在BetterTouchTool中配置" class="headerlink" title="在BetterTouchTool中配置"></a>在BetterTouchTool中配置</h2><ol><li>自定义菜单栏，选择Shell脚本 &#x2F; 任务 widget</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206015650143.png"></p><ol start="2"><li>填写脚本配置：</li></ol><ul><li>启动路径：<code>/bin/bash</code></li><li>参数：<code>-c</code></li><li>环境变量：在你本机的Terminal中输入<code>echo $PATH</code>，然后复制输出内容到此处，格式类似于：  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin...</span><br></pre></td></tr></table></figure></li></ul><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206015752477.png"></p><h2 id="个性化（可选）"><a href="#个性化（可选）" class="headerlink" title="个性化（可选）"></a>个性化（可选）</h2><p>空白歌词显示「No Lyric」</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">output=$(python3 -m touchbar_lyric --app Music)</span><br><span class="line"><span class="keyword">if</span> [ -z <span class="string">&quot;<span class="variable">$output</span>&quot;</span> ]; <span class="keyword">then</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;No Lyric&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">  <span class="built_in">echo</span> <span class="string">&quot;<span class="variable">$output</span>&quot;</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Touchbar-Lyric&quot;&gt;&lt;a href=&quot;#Touchbar-Lyric&quot; class=&quot;headerlink&quot; title=&quot;Touchbar Lyric&quot;&gt;&lt;/a&gt;Touchbar Lyric&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考官方文档：&lt;a</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>BetterTouchTool最佳实践</title>
+    <link href="http://xsun.work/posts/bc939568/"/>
+    <id>http://xsun.work/posts/bc939568/</id>
+    <published>2024-12-05T17:33:17.000Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="窗口置顶"><a href="#窗口置顶" class="headerlink" title="窗口置顶"></a>窗口置顶</h2><h3 id="开启方法"><a href="#开启方法" class="headerlink" title="开启方法"></a>开启方法</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206012805804.png"></p><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206012227049.gif"></p><h2 id="自定义吸附区"><a href="#自定义吸附区" class="headerlink" title="自定义吸附区"></a>自定义吸附区</h2><h3 id="开启方法-1"><a href="#开启方法-1" class="headerlink" title="开启方法"></a>开启方法</h3><ol><li>新建吸附区域</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206013456100.png"></p><ol start="2"><li>设置捕捉区域</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206013805136.png"></p><h3 id="效果-1"><a href="#效果-1" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014000573.gif"></p><h2 id="自定义刘海屏"><a href="#自定义刘海屏" class="headerlink" title="自定义刘海屏"></a>自定义刘海屏</h2><h3 id="个人推荐"><a href="#个人推荐" class="headerlink" title="个人推荐"></a>个人推荐</h3><ol><li>播放器</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014352277.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014331647.png"></p><ol start="2"><li>天气</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014437664.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014501866.png"></p><ol start="3"><li>歌词</li></ol><p>详见这篇教程：TODO</p><h3 id="效果-2"><a href="#效果-2" class="headerlink" title="效果"></a>效果</h3><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014227005.png"></p><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><ol><li>Command + R 窗口置顶</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014604669.png"></p><ol start="2"><li>Command + E 窗口自定义吸附</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014809364.png"></p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206012227049.gif"></p><blockquote><p>配合置顶的iPhone镜像</p></blockquote><ol start="3"><li>Command + Shift + R 窗口最大化</li></ol><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206014847178.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;窗口置顶&quot;&gt;&lt;a href=&quot;#窗口置顶&quot; class=&quot;headerlink&quot; title=&quot;窗口置顶&quot;&gt;&lt;/a&gt;窗口置顶&lt;/h2&gt;&lt;h3 id=&quot;开启方法&quot;&gt;&lt;a href=&quot;#开启方法&quot; class=&quot;headerlink&quot; title=&quot;开启方法&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在MacOS上置顶任意窗口</title>
+    <link href="http://xsun.work/posts/5a8a6c8d/"/>
+    <id>http://xsun.work/posts/5a8a6c8d/</id>
+    <published>2024-12-05T15:41:58.000Z</published>
+    <updated>2024-12-13T11:33:44.558Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文适用于MacOS 15 Sequoia，有效日期：2024-12-05</p></blockquote><h2 id="方法一-TheMost"><a href="#方法一-TheMost" class="headerlink" title="方法一: TheMost"></a>方法一: TheMost</h2><p>App Store 搜索 TheMost 并安装。<br>该方案简单易用，但仅针对下列场景：</p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206010743850.jpg"></p><h2 id="方法二-MacForge-AfloatX"><a href="#方法二-MacForge-AfloatX" class="headerlink" title="方法二: MacForge + AfloatX"></a>方法二: MacForge + AfloatX</h2><p>参考：</p><ul><li><a href="https://shixiangwang.github.io/home/cn/post/2021-01-02-use-macforge-and-afloatx/">https://shixiangwang.github.io/home/cn/post/2021-01-02-use-macforge-and-afloatx/</a></li><li><a href="https://blog.csdn.net/weixin_45019478/article/details/110941683">https://blog.csdn.net/weixin_45019478/article/details/110941683</a></li></ul><p>经过实测，MacForge已经不支持MacOS 15 Sequoia，装不上插件，无论怎么根据教程安装MacForge都不行。</p><h2 id="方法三-BetterTouchTool"><a href="#方法三-BetterTouchTool" class="headerlink" title="方法三: BetterTouchTool"></a>方法三: BetterTouchTool</h2><blockquote><p>强烈推荐</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206012227049.gif"></p><p>注意点：</p><ul><li>该软件更新很频繁，并且MacOS 15 Sequoia需要配合该软件最新版(截止写文时为20241204版本)</li><li>该软件实现窗口置顶调用了Mac的应用屏幕共享功能，最终会有个Menubar角标</li></ul><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206012546179.png"></p><p>开启方法：</p><p><img src="https://cdn.jsdelivr.net/gh/xionsun/file@main//hexo/20241206012805804.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文适用于MacOS 15 Sequoia，有效日期：2024-12-05&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;方法一-TheMost&quot;&gt;&lt;a href=&quot;#方法一-TheMost&quot; class=&quot;headerlink&quot; title</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mac-init</title>
+    <link href="http://xsun.work/posts/530c807b/"/>
+    <id>http://xsun.work/posts/530c807b/</id>
+    <published>2024-11-05T15:55:15.000Z</published>
+    <updated>2024-12-22T10:37:36.093Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="初始化一台Mac"><a href="#初始化一台Mac" class="headerlink" title="初始化一台Mac"></a>初始化一台Mac</h1><h2 id="系统设置"><a href="#系统设置" class="headerlink" title="系统设置"></a>系统设置</h2><h3 id="Finder-Settings"><a href="#Finder-Settings" class="headerlink" title="Finder Settings"></a>Finder Settings</h3><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h2 id="开发环境"><a href="#开发环境" class="headerlink" title="开发环境"></a>开发环境</h2><h3 id="Homebrew"><a href="#Homebrew" class="headerlink" title="Homebrew"></a>Homebrew</h3><p><a href="https://brew.sh/zh-cn/">https://brew.sh/zh-cn/</a></p><h3 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h3><p>用homebrew安装</p><h3 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h3><p>nvm</p><p><a href="https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating">https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating</a><br><a href="https://chatgpt.com/share/67604fb4-b580-8006-950a-31f1e40fc304">https://chatgpt.com/share/67604fb4-b580-8006-950a-31f1e40fc304</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">export NVM_DIR=&quot;$([ -z &quot;$&#123;XDG_CONFIG_HOME-&#125;&quot; ] &amp;&amp; printf %s &quot;$&#123;HOME&#125;/.nvm&quot; || printf %s &quot;$&#123;XDG_CONFIG_HOME&#125;/nvm&quot;)&quot;</span><br><span class="line">[ -s &quot;$NVM_DIR/nvm.sh&quot; ] &amp;&amp; \. &quot;$NVM_DIR/nvm.sh&quot;</span><br></pre></td></tr></table></figure><p>安装包<br><a href="https://nodejs.org/en/download/prebuilt-installer/current">https://nodejs.org/en/download/prebuilt-installer/current</a></p><h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h3><p><a href="https://www.docker.com/">https://www.docker.com</a></p><h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><h3 id="Chrome"><a href="#Chrome" class="headerlink" title="Chrome"></a>Chrome</h3><h3 id="VS-Code-Cursor"><a href="#VS-Code-Cursor" class="headerlink" title="VS Code | Cursor"></a>VS Code | Cursor</h3><p><a href="https://www.cursor.com/">https://www.cursor.com</a></p><h3 id="Setapp"><a href="#Setapp" class="headerlink" title="Setapp"></a>Setapp</h3><ol><li>BetterTouchTool</li><li>CleanMyMac</li><li>CleanShot X</li><li>Downie</li><li>Permute</li><li>MindNode</li></ol><h3 id="picGo"><a href="#picGo" class="headerlink" title="picGo"></a>picGo</h3><p>post: c4fe5b8b</p><h3 id="eudic-欧路词典"><a href="#eudic-欧路词典" class="headerlink" title="eudic 欧路词典"></a>eudic 欧路词典</h3><h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><h3 id="Battle-net"><a href="#Battle-net" class="headerlink" title="Battle.net"></a>Battle.net</h3><h3 id="Steam"><a href="#Steam" class="headerlink" title="Steam"></a>Steam</h3><h2 id="从旧的Mac迁移"><a href="#从旧的Mac迁移" class="headerlink" title="从旧的Mac迁移"></a>从旧的Mac迁移</h2><h3 id="通知中心"><a href="#通知中心" class="headerlink" title="通知中心"></a>通知中心</h3><p>手动迁移</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;初始化一台Mac&quot;&gt;&lt;a href=&quot;#初始化一台Mac&quot; class=&quot;headerlink&quot; title=&quot;初始化一台Mac&quot;&gt;&lt;/a&gt;初始化一台Mac&lt;/h1&gt;&lt;h2 id=&quot;系统设置&quot;&gt;&lt;a href=&quot;#系统设置&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mac应用程序无法打开或文件损坏的处理方法 - Mac开启信任任何来源</title>
+    <link href="http://xsun.work/posts/530l7x7b/"/>
+    <id>http://xsun.work/posts/530l7x7b/</id>
+    <published>2024-11-05T15:55:15.000Z</published>
+    <updated>2024-12-13T12:08:37.073Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Mac应用程序无法打开或文件损坏的处理方法-Mac开启信任任何来源"><a href="#Mac应用程序无法打开或文件损坏的处理方法-Mac开启信任任何来源" class="headerlink" title="Mac应用程序无法打开或文件损坏的处理方法 - Mac开启信任任何来源"></a>Mac应用程序无法打开或文件损坏的处理方法 - Mac开启信任任何来源</h1><p><a href="https://mac.macxz.com/news/369565.html">https://mac.macxz.com/news/369565.html</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Mac应用程序无法打开或文件损坏的处理方法-Mac开启信任任何来源&quot;&gt;&lt;a href=&quot;#Mac应用程序无法打开或文件损坏的处理方法-Mac开启信任任何来源&quot; class=&quot;headerlink&quot; title=&quot;Mac应用程序无法打开或文件损坏的处理方法 - Ma</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>git清除全部commit记录</title>
+    <link href="http://xsun.work/posts/e087a4ad/"/>
+    <id>http://xsun.work/posts/e087a4ad/</id>
+    <published>2024-06-04T07:51:24.000Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本方案借助IDEA的git GUI界面，命令行方式同理。</p></blockquote><h1 id="Step-1"><a href="#Step-1" class="headerlink" title="Step 1:"></a>Step 1:</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git checkout --orphan temp</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;initial commit&quot;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本方案借助IDEA的git GUI界面，命令行方式同理。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;Step-1&quot;&gt;&lt;a href=&quot;#Step-1&quot; class=&quot;headerlink&quot; title=&quot;Step 1:&quot;&gt;&lt;/a&gt;Step</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>将你的内网服务发布到公网 - 使用开源工具FRP进行网络穿透</title>
+    <link href="http://xsun.work/posts/c7190df0/"/>
+    <id>http://xsun.work/posts/c7190df0/</id>
+    <published>2024-01-15T06:34:41.000Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>官方文档：<a href="https://gofrp.org/zh-cn/docs">https://gofrp.org/zh-cn/docs</a></p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1705301049155.jpg" alt="1705301050842"></p><h1 id="系统需求"><a href="#系统需求" class="headerlink" title="系统需求"></a>系统需求</h1><p>由于采用 Go 语言编写，因此系统需求与最新的 Go 语言对系统和平台的要求一致，具体请参考 <a href="https://golang.org/doc/install#requirements">Golang System requirements</a>。</p><h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><p>您可以从 GitHub 的 <a href="https://github.com/fatedier/frp/releases">Release</a> 页面中下载最新版本的客户端和服务器二进制文件。所有文件都打包在一个压缩包中，还包含了一份完整的配置参数说明。</p><h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><ol><li>解压下载的压缩包。</li><li>将 <code>frpc</code> 复制到内网服务所在的机器上。</li><li>将 <code>frps</code> 复制到拥有公网 IP 地址的机器上，并将它们放在任意目录。</li></ol><h1 id="开始使用"><a href="#开始使用" class="headerlink" title="开始使用"></a>开始使用</h1><ol><li><p>编写配置文件，目前支持的文件格式包括 TOML&#x2F;YAML&#x2F;JSON，旧的 INI 格式仍然支持，但已经不再推荐。</p></li><li><p>使用以下命令启动服务器：<code>./frps -c ./frps.toml</code>。</p></li><li><p>使用以下命令启动客户端：<code>./frpc -c ./frpc.toml</code>。</p></li><li><p>如果需要在后台长期运行，建议结合其他工具，如 <a href="https://gofrp.org/zh-cn/docs/setup/systemd/">systemd</a> 、<code>nohup</code>和 <code>supervisor</code>。</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 服务端</span></span><br><span class="line"><span class="built_in">nohup</span> ./frps -c ./frps.toml &amp;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 客户端</span></span><br><span class="line"><span class="built_in">nohup</span> ./frpc -c ./frpc.toml &amp;</span><br></pre></td></tr></table></figure></li></ol><p>有关如何编写配置文件，详见 <a href="#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">配置文件</a> 章节中的内容。</p><p>完整的配置项说明，详见 <a href="https://gofrp.org/zh-cn/docs/reference/">官方文档 - 参考</a> 中的内容。</p><h1 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h1><h2 id="frps-toml"><a href="#frps-toml" class="headerlink" title="frps.toml"></a>frps.toml</h2><p><strong>在具有公网 IP 的机器上部署 frps</strong></p><p>部署 frps 并编辑 frps.toml 文件。以下是简化的配置，其中设置了 frp 服务器用于接收客户端连接的端口：</p><figure class="highlight toml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">bindPort</span> = <span class="number">7000</span></span><br></pre></td></tr></table></figure><h2 id="frpc-toml"><a href="#frpc-toml" class="headerlink" title="frpc.toml"></a>frpc.toml</h2><p><strong>在需要被访问的内网机器上部署 frpc</strong></p><p>部署 frpc 并编辑 frpc.toml 文件，假设 frps 所在服务器的公网 IP 地址为 x.x.x.x。以下是示例配置：</p><figure class="highlight toml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">serverAddr</span> = <span class="string">&quot;x.x.x.x&quot;</span></span><br><span class="line"><span class="attr">serverPort</span> = <span class="number">7000</span></span><br><span class="line"></span><br><span class="line"><span class="section">[[proxies]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;ssh&quot;</span></span><br><span class="line"><span class="attr">type</span> = <span class="string">&quot;tcp&quot;</span></span><br><span class="line"><span class="attr">localIP</span> = <span class="string">&quot;127.0.0.1&quot;</span></span><br><span class="line"><span class="attr">localPort</span> = <span class="number">22</span></span><br><span class="line"><span class="attr">remotePort</span> = <span class="number">6000</span></span><br><span class="line"></span><br><span class="line"><span class="section">[[proxies]]</span></span><br><span class="line"><span class="attr">name</span> = <span class="string">&quot;nginx&quot;</span></span><br><span class="line"><span class="attr">type</span> = <span class="string">&quot;http&quot;</span></span><br><span class="line"><span class="attr">localIP</span> = <span class="string">&quot;127.0.0.1&quot;</span></span><br><span class="line"><span class="attr">localPort</span> = <span class="number">80</span></span><br><span class="line"><span class="attr">remotePort</span> = <span class="number">8080</span></span><br></pre></td></tr></table></figure><ul><li><code>localIP</code> 和 <code>localPort</code> 配置为需要从公网访问的内网服务的地址和端口。</li><li><code>remotePort</code> 表示在 frp 服务端监听的端口，访问此端口的流量将被转发到本地服务的相应端口。</li><li><code>type</code>表示连接类型，常用的type包括<code>http</code>和<code>tcp</code>：<ul><li>常见的Web服务、Server服务都是<code>http</code>连接。</li><li>如ssh、mysql、redis等服务的连接为<code>tcp</code>连接。</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;官方文档：&lt;a href=&quot;https://gofrp.org/zh-cn/docs&quot;&gt;https://gofrp.org/zh-cn/docs&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsde</summary>
+      
+    
+    
+    
+    <category term="DevOps" scheme="http://xsun.work/categories/DevOps/"/>
+    
+    
+    <category term="DevOps" scheme="http://xsun.work/tags/DevOps/"/>
+    
+    <category term="Frp" scheme="http://xsun.work/tags/Frp/"/>
+    
+    <category term="Network" scheme="http://xsun.work/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用SSH连接到Github</title>
+    <link href="http://xsun.work/posts/4bbb0781/"/>
+    <id>http://xsun.work/posts/4bbb0781/</id>
+    <published>2024-01-10T14:18:55.000Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1705312535828.png" alt="1705312545735"></p><blockquote><p>Github官方文档 - Connecting to GitHub with SSH：<a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">https://docs.github.com/en/authentication/connecting-to-github-with-ssh</a></p></blockquote><h1 id="什么是Github-SSH连接"><a href="#什么是Github-SSH连接" class="headerlink" title="什么是Github SSH连接"></a>什么是Github SSH连接</h1><p>在管理Git项目时，需要进行登录验证，才能进行Clone、Commit、Pull、Push等方法。登录方式有两种：</p><ul><li>HTTPS：通过加密的方式传输数据。通过账号密码进行登录验证。</li><li>SSH：通过一个不安全的网络提供一个安全的通道。通过SSH key进行登录验证。</li></ul><p>这两种方式的主要区别在于：</p><ul><li>HTTPS无需配置，但是需要在各种场景下频繁输入账号密码。</li><li>SSH配置key稍微麻烦一些，但是后续使用key即可登录，无需账号密码。</li><li>SSH更加契合在脚本中执行git操作的场景，因为git login是一个交互式指令，在脚本中处理git login比较麻烦。</li></ul><h1 id="生成SSH-Key"><a href="#生成SSH-Key" class="headerlink" title="生成SSH Key"></a>生成SSH Key</h1><h2 id="检查现有SSH-Key"><a href="#检查现有SSH-Key" class="headerlink" title="检查现有SSH Key"></a>检查现有SSH Key</h2><p>在你的本地机器上，你需要有一个SSH Key才能使用ssh连接。要检查现有的SSH Key，打开终端并输入以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">ls</span> -al ~/.ssh</span><br></pre></td></tr></table></figure><p>如果在ssh目录中列出了任何SSH Key，则可以选择使用现有SSH Key。但为了安全起见，为不同的应用程序&#x2F;连接创建不同的SSH Key总是被认为是安全的，即使一个SSH Key被泄露，其他连接仍然安全。</p><h2 id="生成SSH-Key-1"><a href="#生成SSH-Key-1" class="headerlink" title="生成SSH Key"></a>生成SSH Key</h2><ol><li><p>打开终端并输入ssh-keygen命令：</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;&lt;你的邮箱&gt;&quot;</span></span><br></pre></td></tr></table></figure></li><li><p>然后就会显示这两行：</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ Generating public/private rsa key pair.</span><br><span class="line">$ Enter file <span class="keyword">in</span> <span class="built_in">which</span> to save the key (/c/Users/16627/.ssh/id_rsa):</span><br></pre></td></tr></table></figure><p>这是让你输入一个文件名，用于保存刚才生成的SSH Key代码。为了避免麻烦，不用输入，直接回车，那么就会默认生成id_rsa和id_rsa.pub两个SSH Key文件。</p><p>这时候已经创建好.ssh这个文件夹了，会提示：</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ Created directory ‘/c/Users/16627/.ssh’.</span><br></pre></td></tr></table></figure></li><li><p>紧接着你需要设置密码：</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ Enter passphrase (empty <span class="keyword">for</span> no passphrase):</span><br></pre></td></tr></table></figure><p>如果你设置了密码，那在你使用ssh传输文件的时候，你就要输入这个密码。为了避免麻烦，建议不用设置，直接回车。</p></li><li><p>再次输入密码。</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ Enter same passphrase again:</span><br></pre></td></tr></table></figure><p>上一步没设置密码，这里直接回车就可以了。到这里你的SSH Key就设置好了，你会收到这段代码提示：</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ Your identification has been saved <span class="keyword">in</span> ~/.ssh/id_rsa</span><br><span class="line">$ Your public key has been saved <span class="keyword">in</span> ~/.ssh/id_rsa.pub</span><br><span class="line"><span class="comment"># 还会具体向你展示你的SSH Key</span></span><br></pre></td></tr></table></figure></li><li><p>当你看到上面这段代码，那就说明你的 SSH key 已经创建成功，你可以再次使用<code>ls -al ~/.ssh</code>查看你的Key。</p></li><li><p>然后，你会被提示“输入保存SSH Key的文件”。你可以按Enter使用默认位置，也可以指定自己的文件位置。为了避免将来的冲突，建议使用默认目录并按Enter。</p></li></ol><h2 id="添加到SSH-agent"><a href="#添加到SSH-agent" class="headerlink" title="添加到SSH-agent"></a>添加到SSH-agent</h2><p>现在我们有了SSH Key，我们可以将SSH Key添加到ssh-agent。SSH-agent是SSH的一个SSH Key管理器。将SSH Key添加到<code>ssh-agent</code>可以避免你反复输入密码短语。要将SSH Key添加到<code>ssh-agent</code>，我们首先在后台启动<code>ssh-agent</code>。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">eval</span> <span class="string">&quot;<span class="subst">$(ssh-agent -s)</span>&quot;</span></span><br></pre></td></tr></table></figure><p>现在我们的ssh-agent已经启动了，我们添加我们的SSH Key对到ssh。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-add ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure><blockquote><p>注意：如果在创建密钥时使用了不同的目录&#x2F;文件名，请将~&#x2F;.ssh&#x2F;id_ed25519替换为密钥位置</p></blockquote><h1 id="添加SSH-Key到GitHub"><a href="#添加SSH-Key到GitHub" class="headerlink" title="添加SSH Key到GitHub"></a>添加SSH Key到GitHub</h1><ol><li><p>打开Github网页，点击右上角「个人头像 - 设置」</p></li><li><p>选择「SSH and GPG keys」</p><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1705307252973.png" alt="1705307261849"></p></li><li><p>点击「New SSH Key」</p><ul><li>Title随便起个名字</li><li>Key Type默认即可</li></ul></li><li><p>获取SSH Key</p><ul><li>打开<code>~/.ssh</code>路径</li><li>打开<code>id_rsa.pub</code>文件</li><li>复制其中的内容</li><li>填写到表单的Key中</li></ul><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1705311344396.jpg" alt="1705311346284"></p></li><li><p>点击「Add SSH Key」，这样就创建成功了</p></li></ol><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1705311453558.png" alt="1705311459940"></p><h1 id="测试SSH-key是否生效"><a href="#测试SSH-key是否生效" class="headerlink" title="测试SSH key是否生效"></a>测试SSH key是否生效</h1><p>在终端或git Bash中输入以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><blockquote><p>注意是<a href="mailto:&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#46;&#99;&#111;&#x6d;">&#103;&#105;&#116;&#64;&#103;&#105;&#x74;&#x68;&#117;&#98;&#46;&#99;&#111;&#x6d;</a>，不是你的邮箱。</p></blockquote><p>然后会提示你：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ The authenticity of host ‘github.com (13.229.188.59)’ can’t be established.</span><br><span class="line">$ RSA key fingerprint is SHA256:nThbg6kXUp…</span><br><span class="line">$ Are you sure you want to <span class="built_in">continue</span> connecting (<span class="built_in">yes</span>/no/[fingerprint])?</span><br></pre></td></tr></table></figure><p>输入yes，回车：</p><p>接下来就会提示你输入密码，如果上边设置ssh的时候，你没设置密码会提示你：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ Warning: Permanently added ‘github.com,192.30.255.112’ (RSA) to the list of known hosts.</span><br></pre></td></tr></table></figure><p>警告完了，如果你能看到如下提示，那你已经成功设置SSH Key。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ Hi “&lt;用户名&gt;”! You’ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1705312535828.png&quot; alt=&quot;1705312545735&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Github官方文档 - Con</summary>
+      
+    
+    
+    
+    <category term="Cloud" scheme="http://xsun.work/categories/Cloud/"/>
+    
+    
+    <category term="GitHub" scheme="http://xsun.work/tags/GitHub/"/>
+    
+    <category term="Authentication" scheme="http://xsun.work/tags/Authentication/"/>
+    
+    <category term="SSH" scheme="http://xsun.work/tags/SSH/"/>
+    
+    <category term="Cloud" scheme="http://xsun.work/tags/Cloud/"/>
+    
+    <category term="Git" scheme="http://xsun.work/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo开启PWA Web App支持</title>
+    <link href="http://xsun.work/posts/1fd3c959/"/>
+    <id>http://xsun.work/posts/1fd3c959/</id>
+    <published>2024-01-09T03:37:45.000Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本方案基于Hexo的Butterfly主题，详见<a href="https://xsun.work/zh/posts/4b4dbb3/">Butterfly - Hexo 主题安装与配置</a></p></blockquote><h1 id="什么是PWA"><a href="#什么是PWA" class="headerlink" title="什么是PWA"></a>什么是PWA</h1><p>渐进式 Web 应用（Progressive Web App，PWA）是一个使用 web 平台技术构建的应用程序，但它提供的用户体验就像一个特定平台的应用程序。</p><p>它像网站一样，PWA 可以通过一个代码库在多个平台和设备上运行。它也像一个特定平台的应用程序一样，可以安装在设备上，可以离线和在后台运行，并且可以与设备和其他已安装的应用程序集成。</p><p>它是一个基于Web技术的轻量化夸端App。相比于传统App它更加轻量、易安装、易用，相比于传统Web，它支持离线运行并且拥有更强大的API支持，从而可以实现相比传统Web更多的功能。</p><blockquote><p>更多介绍请参考：</p><ul><li><a href="https://en.wikipedia.org/wiki/Progressive_web_app">维基百科 - Progressive web app</a></li><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps">mozilla开发者文档</a></li><li><a href="https://developer.chrome.com/docs/lighthouse/pwa">Google Tools for Web Developers</a></li></ul></blockquote><h1 id="安装Hexo插件"><a href="#安装Hexo插件" class="headerlink" title="安装Hexo插件"></a>安装Hexo插件</h1><ol><li><p>在项目根目录安装<strong>hexo-offline</strong>插件</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm install hexo-offline</span><br></pre></td></tr></table></figure></li><li><p>在项目根目录创建<code>hexo-offline.config.cjs</code>文件，并增加以下内容：</p> <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// offline config passed to workbox-build.</span></span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">globPatterns</span>: [<span class="string">&#x27;**/*.&#123;js,html,css,png,jpg,gif,svg,webp,eot,ttf,woff,woff2&#125;&#x27;</span>],</span><br><span class="line">  <span class="attr">globDirectory</span>: <span class="string">&#x27;public&#x27;</span>,</span><br><span class="line">  <span class="attr">swDest</span>: <span class="string">&#x27;public/service-worker.js&#x27;</span>,</span><br><span class="line">  <span class="attr">maximumFileSizeToCacheInBytes</span>: <span class="number">10485760</span>, <span class="comment">// 缓存的最大文件大小，单位为字节。</span></span><br><span class="line">  <span class="attr">skipWaiting</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">clientsClaim</span>: <span class="literal">true</span>,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li></ol><blockquote><p>更多配置项详见<a href="https://github.com/JLHwung/hexo-offline">hexo-offline官方文档</a></p></blockquote><h1 id="创建Web-App注册文件"><a href="#创建Web-App注册文件" class="headerlink" title="创建Web App注册文件"></a>创建Web App注册文件</h1><p>在项目的<code>source/</code>目录创建<code>manifest.json</code>文件，并增加以下内容：</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Aghenim Sanctuary&quot;</span><span class="punctuation">,</span> # App名称</span><br><span class="line">  <span class="attr">&quot;short_name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Aghenim Sanctuary&quot;</span><span class="punctuation">,</span> # App名称简写</span><br><span class="line">  <span class="attr">&quot;start_url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;/index.html&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;display&quot;</span><span class="punctuation">:</span> <span class="string">&quot;standalone&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Web &amp; DevOps &amp; More&quot;</span><span class="punctuation">,</span> # App介绍</span><br><span class="line">  <span class="attr">&quot;orientation&quot;</span><span class="punctuation">:</span> <span class="string">&quot;natural&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;prefer_related_applications&quot;</span><span class="punctuation">:</span> <span class="literal"><span class="keyword">false</span></span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;theme_color&quot;</span><span class="punctuation">:</span> <span class="string">&quot;#000&quot;</span><span class="punctuation">,</span> # 主题色</span><br><span class="line">  <span class="attr">&quot;background_color&quot;</span><span class="punctuation">:</span> <span class="string">&quot;#000&quot;</span><span class="punctuation">,</span> # 背景色</span><br><span class="line">  <span class="attr">&quot;icons&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span></span><br><span class="line">  <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;src&quot;</span><span class="punctuation">:</span> <span class="string">&quot;logo.png&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;sizes&quot;</span><span class="punctuation">:</span> <span class="string">&quot;500x500&quot;</span> # sizes需要和Logo的实际尺寸匹配</span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line">  <span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;scope&quot;</span><span class="punctuation">:</span> <span class="string">&quot;/&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><p>你也可以通过<a href="https://app-manifest.firebaseapp.com/">Web App Manifest</a>快速创建<code>manifest.json</code></p><blockquote><p>注意⚠️：请按需修改配置，并确保<code>manifest.json</code>及各尺寸Logo图片的相对路径正确</p></blockquote><blockquote><p>注意⚠️：json不支持注释，粘贴本内容进项目后请删除注释</p></blockquote><h1 id="配置开启PWA"><a href="#配置开启PWA" class="headerlink" title="配置开启PWA"></a>配置开启PWA</h1><ol><li><p>Butterfly主题配置</p><p>打开项目根目录的<code>_config.butterfly.yml</code>配置文件，增加如下段落：</p> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">pwa:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># 开启/关闭 PWA</span></span><br><span class="line">  <span class="attr">manifest:</span> <span class="string">/img/pwa/manifest.json</span> <span class="comment"># 引入</span></span><br><span class="line">  <span class="attr">apple_touch_icon:</span> <span class="string">/img/pwa/logo.png</span> <span class="comment"># iOS上的Safari浏览器安装Web App时使用的图标</span></span><br><span class="line">  <span class="attr">favicon_32_32:</span> <span class="string">/img/pwa/logo32-32.png</span> <span class="comment"># 32*32像素的图标</span></span><br><span class="line">  <span class="attr">favicon_16_16:</span> <span class="string">/img/pwa/logo16-16.png</span> <span class="comment"># 16*16像素的图标</span></span><br><span class="line">  <span class="attr">mask_icon:</span> <span class="string">/img/pwa/logo.png</span> <span class="comment"># 标准尺寸的图标</span></span><br></pre></td></tr></table></figure><p>具体配置项含义详见上方注释</p><blockquote><p>注意⚠️：请确保<code>manifest.json</code>及各尺寸Logo图片的相对路径正确</p></blockquote></li></ol><h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><p>上述过程全部正确执行后，打开网站会发现可以安装App了：</p><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704782623202.jpg" alt="1704782626684"></p><p>PWA Web App访问效果如下：</p><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704783576771.jpg" alt="1704783579624"></p><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704783306078.jpg" alt="1704783309101">  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本方案基于Hexo的Butterfly主题，详见&lt;a href=&quot;https://xsun.work/zh/posts/4b4dbb3/&quot;&gt;Butterfly - Hexo 主题安装与配置&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=</summary>
+      
+    
+    
+    
+    <category term="Web" scheme="http://xsun.work/categories/Web/"/>
+    
+    
+    <category term="Hexo" scheme="http://xsun.work/tags/Hexo/"/>
+    
+    <category term="Blog" scheme="http://xsun.work/tags/Blog/"/>
+    
+    <category term="PWA" scheme="http://xsun.work/tags/PWA/"/>
+    
+    <category term="Web App" scheme="http://xsun.work/tags/Web-App/"/>
+    
+    <category term="Web" scheme="http://xsun.work/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Butterfly - Hexo主题安装与配置</title>
+    <link href="http://xsun.work/posts/4b4dbb3/"/>
+    <id>http://xsun.work/posts/4b4dbb3/</id>
+    <published>2024-01-08T12:01:41.000Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704718063078.jpg" alt="1704718064735"></p><h1 id="主题选择"><a href="#主题选择" class="headerlink" title="主题选择"></a>主题选择</h1><p>官网提供了400+主题供选择（<a href="https://hexo.io/themes/)%E3%80%82">https://hexo.io/themes/)。</a></p><p>不过由于Hexo本身只是一个由Markdown文档驱动的静态网页框架，所以大量功能实际上是靠各位主题作者和插件作者实现的，所以主题与主题之间差别非常大。</p><p><strong>Butterfly</strong></p><p><a href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a>是我认为Hexo主题中的佼佼者：</p><ol><li>该项目从2019年开始更新，目前仍然在稳定的更新，其最近一个Release在上周发布(2024.1)。</li><li>该项目拥有6.3K Stars(2024.1)，是整个Hexo社区最高赞的主题之一。</li><li>该项目有1024个Closed的Issues，只有3个Open的Issues(2024.1)。同时我在安装配置过程中也提了一个<a href="https://github.com/jerryc127/hexo-theme-butterfly/issues/1423">Issue</a>，该Issue在当天就得到了作者的解答。</li><li>非常完善的响应式支持，移动端体验非常好。</li><li>最重要的是，该主题的功能非常非常强大。暗黑模式、文章社群分享、Algolia搜索、TOC、自动推荐相关文章、全局繁简转换、PWA web app、人数统计、字数统计、运行时间、大图模式、阅读模式、外部链接Prefetch(鼠标hover自动提前加载)、Cloudflare Analytics等功能都可以靠配置实现！</li></ol><p>有这样的优秀、稳定、功能强大的项目，夫复何求！</p><blockquote><p>官方文档：<a href="https://butterfly.js.org/posts/21cfbf15/">https://butterfly.js.org/posts/21cfbf15/</a><br>官方Github：<a href="https://github.com/jerryc127/hexo-theme-butterfly">https://github.com/jerryc127/hexo-theme-butterfly</a></p></blockquote><h1 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h1><p><strong>安装</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm install hexo-theme-butterfly</span><br></pre></td></tr></table></figure><p><strong>升级</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm update hexo-theme-butterfly</span><br></pre></td></tr></table></figure><h1 id="主题应用"><a href="#主题应用" class="headerlink" title="主题应用"></a>主题应用</h1><p><strong>应用</strong></p><p>配置项目根目录的_config.yml：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure><p><strong>安装渲染插件</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><h1 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h1><blockquote><p>官网主题配置文档Part1: <a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a><br>官网主题配置文档Part2: <a href="https://butterfly.js.org/posts/ceeb73f/">https://butterfly.js.org/posts/ceeb73f/</a></p></blockquote><p><strong>_config.butterfly.yml</strong></p><ol><li>在根目录创建<code>_config.butterfly.yml</code>配置文件。</li><li>参考官方主题文档进行基础配置。</li></ol><p><strong>运行项目</strong></p><p>此时主题应该已经生效。</p><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704719743684.png" alt="1704719751543"></p><h1 id="注意事项⚠️"><a href="#注意事项⚠️" class="headerlink" title="注意事项⚠️"></a>注意事项⚠️</h1><blockquote><p>以下问题针对hexo 7.0.0 和 butterfly 4.12.0</p></blockquote><ol><li><p><code>canvas_fluttering_ribbon.mobile: true</code>（开启移动端背景彩条动画）时，移动端部分设备切换暗黑模式时，会遇到背景无法同步切换的问题。建议关闭。</p></li><li><p><code>subtitle</code>直接设置<code>startDelay</code>、<code>typeSpeed</code>、<code>backSpeed</code>无效，需要在中间配置一层<code>typed_option</code>，具体例子如下：</p> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">subtitle:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">effect:</span> <span class="literal">true</span> <span class="comment"># Typewriter Effect</span></span><br><span class="line">    <span class="attr">typed_option:</span> <span class="comment"># over here</span></span><br><span class="line">        <span class="attr">startDelay:</span> <span class="number">800</span> <span class="comment"># time before typing starts in milliseconds</span></span><br><span class="line">        <span class="attr">typeSpeed:</span> <span class="number">100</span> <span class="comment"># type speed in milliseconds</span></span><br><span class="line">        <span class="attr">backSpeed:</span> <span class="number">20</span> <span class="comment"># backspacing speed in milliseconds</span></span><br><span class="line">    <span class="attr">loop:</span> <span class="literal">true</span> <span class="comment"># 循环打字</span></span><br><span class="line">    <span class="attr">source:</span> <span class="literal">false</span></span><br><span class="line">    <span class="string">...</span></span><br></pre></td></tr></table></figure></li><li><p><code>social</code>配置颜色时，不会根据暗黑模式切换颜色。</p> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">social:</span></span><br><span class="line">    <span class="attr">fab fa-youtube:</span> <span class="string">https://www.youtube.com/@aghenim</span> <span class="string">||</span> <span class="string">Youtube</span> <span class="string">||</span> <span class="string">&quot;red&quot;</span> <span class="comment"># 固定红色</span></span><br><span class="line">    <span class="attr">fab fa-youtube:</span> <span class="string">https://www.youtube.com/@aghenim</span> <span class="string">||</span> <span class="string">Youtube</span> <span class="comment"># 默认黑色、暗黑模式下白色</span></span><br></pre></td></tr></table></figure></li><li><p>想要启用<strong>Addtoany</strong>，需要手动关闭<strong>sharejs</strong>。sharejs本身支持的平台比较少，并且由于项目几年前已不再维护，更名的X平台也无法配置，故建议使用Addtoany。</p> <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">sharejs:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">false</span> <span class="comment"># 开启addtoany前，需要手动关闭sharejs</span></span><br><span class="line"><span class="attr">addtoany:</span></span><br><span class="line">    <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">item:</span> <span class="string">x,whatsapp,wechat,email,copy_link</span> <span class="comment">#想要显示的內容</span></span><br></pre></td></tr></table></figure></li><li><p><code>pjax.enable: true</code>时，<code>inject</code>注入的样式、js等文件部分情况下会反复载入，从而导致问题。</p></li><li><p><code>inject.head</code>注入的js文件，其中的同步函数无法获取页面DOM元素（当然了，因为DOM还没有渲染😂）。<code>inject.bottom</code>注入的js文件，函数生效有一点点的延迟，动画之类的效果不会第一时间生效。在意这个问题的话，可以在head插入DOMContentLoaded监听器。</p> <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;DOMContentLoaded&#x27;</span>, <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    <span class="comment">// your function here.</span></span><br><span class="line">&#125;); </span><br></pre></td></tr></table></figure></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704718063078.jpg&quot; alt=&quot;1704718064735&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;主题选择&quot;&gt;&lt;a href=&quot;#主题选择&quot; cl</summary>
+      
+    
+    
+    
+    <category term="Web" scheme="http://xsun.work/categories/Web/"/>
+    
+    
+    <category term="Hexo" scheme="http://xsun.work/tags/Hexo/"/>
+    
+    <category term="Blog" scheme="http://xsun.work/tags/Blog/"/>
+    
+    <category term="Web" scheme="http://xsun.work/tags/Web/"/>
+    
+    <category term="Butterfly" scheme="http://xsun.work/tags/Butterfly/"/>
+    
+    <category term="Theme" scheme="http://xsun.work/tags/Theme/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Hexo创建个人博客</title>
+    <link href="http://xsun.work/posts/8baa021c/"/>
+    <id>http://xsun.work/posts/8baa021c/</id>
+    <published>2024-01-08T07:25:45.000Z</published>
+    <updated>2024-12-13T11:33:44.557Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704701475952.jpg" alt="1704701477603"></p><blockquote><p>官方文档：<a href="https://hexo.io/docs/">https://hexo.io/docs/</a></p></blockquote><h1 id="前置要求"><a href="#前置要求" class="headerlink" title="前置要求"></a>前置要求</h1><p>需要：</p><ol><li>Node.js (12.0 or higher)</li><li>Git</li></ol><p>为了检查你的环境，请输入如下命令，并确保得到类似的返回结果：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">git -v</span><br><span class="line"><span class="comment"># git version 2.xx.x</span></span><br><span class="line"></span><br><span class="line">node -v</span><br><span class="line"><span class="comment"># v18.xx.x</span></span><br><span class="line"></span><br><span class="line">npm -v</span><br><span class="line"><span class="comment"># 10.x.x</span></span><br></pre></td></tr></table></figure><h1 id="初始化工程"><a href="#初始化工程" class="headerlink" title="初始化工程"></a>初始化工程</h1><p>跳转到你想存放你博客源码的路径，执行下列操作：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><p>初始化完成后，目录结构应当如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── <span class="built_in">source</span></span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure><h1 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h1><p>我个人倾向于使用pnpm，不过npm、yarn应该都是可以的</p><blockquote><p>Npm、Yarn、Pnpm的区别详见 <a href="./npm-yarn-pnpm-vs.html">TODO</a></p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm install</span><br></pre></td></tr></table></figure><h1 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h1><h2 id="脚本说明"><a href="#脚本说明" class="headerlink" title="脚本说明"></a>脚本说明</h2><p>打开<code>package.json</code>，你会发现如下脚本：</p><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  ...</span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;build&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo generate&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;clean&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo clean&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;deploy&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo deploy&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;server&quot;</span><span class="punctuation">:</span> <span class="string">&quot;hexo server&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  ...</span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><p>他们分别对应：</p><ul><li>build: 生成静态网页资源(public)。</li><li>clean: 清除缓存，主要是db.json与public。</li><li>deploy: 部署，与hexo-deployer-git配合使用时，会将静态网页资源推送到指定git工程中。通常用于Github Pages服务。</li><li>server: 本地调试运行。</li></ul><h2 id="运行工程"><a href="#运行工程" class="headerlink" title="运行工程"></a>运行工程</h2><p>执行<code>server</code>脚本(<code>pnpm run server</code>或使用IDE交互式按钮)，即可在本地运行工程。</p><p>正常情况下，你会在控制台得到类似这样的输出：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">pnpm run server</span><br><span class="line">$ hexo server</span><br><span class="line">INFO  Validating config</span><br><span class="line">INFO  Start processing</span><br><span class="line">INFO  Hexo is running at http://localhost:4000/ . Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure><p>此时浏览器访问<code>http://localhost:4000/</code>，应该可以看到你的博客主页了。</p><p><img src="https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704700921055.png" alt="1704700921055"></p><h1 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h1><blockquote><p>参考文档：<a href="https://hexo.io/docs/one-command-deployment">https://hexo.io/docs/one-command-deployment</a></p></blockquote><p>使用<strong>hexo-deployer-git</strong><a href="https://github.com/hexojs/hexo-deployer-git">（官方文档）</a>配合<strong>GitHub Pages</strong><a href="https://pages.github.com/">（官方文档）</a>服务</p><h2 id="1-配置Github-Pages"><a href="#1-配置Github-Pages" class="headerlink" title="1. 配置Github Pages"></a>1. 配置Github Pages</h2><p>详见<a href="./todo.html">TODO</a></p><h2 id="2-配置Github的本地SSH-Key"><a href="#2-配置Github的本地SSH-Key" class="headerlink" title="2. 配置Github的本地SSH-Key"></a>2. 配置Github的本地SSH-Key</h2><p>详见<a href="./todo.html">TODO</a></p><h2 id="3-安装hexo-deployer-git"><a href="#3-安装hexo-deployer-git" class="headerlink" title="3. 安装hexo-deployer-git"></a>3. 安装hexo-deployer-git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 在工程根目录运行：</span></span><br><span class="line">pnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><h2 id="4-配置-config-yml"><a href="#4-配置-config-yml" class="headerlink" title="4. 配置_config.yml"></a>4. 配置_config.yml</h2><p>编辑根目录下的_config.yml文件，找到如下段落：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure><blockquote><p>如果没有<code>deploy: </code>则手动添加。</p></blockquote><p>对该段配置进行如下修改：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:&lt;Your-Github-Name&gt;/&lt;Your-Github-Name&gt;github.io.git <span class="comment"># 将&lt;Your-Github-Name&gt;替换为你的Github用户名</span></span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure><h2 id="5-部署工程到Github-Pages"><a href="#5-部署工程到Github-Pages" class="headerlink" title="5. 部署工程到Github Pages"></a>5. 部署工程到Github Pages</h2><ol><li>运行<code>hexo deploy</code>或<code>pnpm run deploy</code>。</li><li>访问 your-github-name.github.io （将your-github-name替换为你的Github用户名)。</li></ol><h2 id="6-Optional-解决和Github-Pages自定义域名CNAME冲突的问题"><a href="#6-Optional-解决和Github-Pages自定义域名CNAME冲突的问题" class="headerlink" title="6. (Optional) 解决和Github Pages自定义域名CNAME冲突的问题"></a>6. (Optional) 解决和Github Pages自定义域名CNAME冲突的问题</h2><p>当配置了Github Pages的自定义域名后，Github会在该工程上自动提交一个名为<code>Create CNAME</code>的Commit记录。</p><p>由于hexo-deployer-git是单向自动化推送的，我们无法接到这次提交。</p><p>所以补救措施为<strong>手动下载该CNAME文件（或者新建一个同名文件，拷贝其中内容），放到source目录下</strong>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/Aghenim/file@main/hexo/1704701475952.jpg&quot; alt=&quot;1704701477603&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官方文档：&lt;a href=&quot;ht</summary>
+      
+    
+    
+    
+    <category term="Web" scheme="http://xsun.work/categories/Web/"/>
+    
+    
+    <category term="Hexo" scheme="http://xsun.work/tags/Hexo/"/>
+    
+    <category term="Blog" scheme="http://xsun.work/tags/Blog/"/>
+    
+    <category term="Web" scheme="http://xsun.work/tags/Web/"/>
+    
+  </entry>
+  
+</feed>
